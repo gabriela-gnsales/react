@@ -1,4 +1,6 @@
-// Importação via CommonJS
+// Importação via CommonJS 
+
+// const boneco = require("./modulos/boneco.js");
 const [boneco, forca, ...array_numeros] = require("./modulos/boneco.js");
 // const {Jogador, categorias_disponiveis: cat_disp} = require("./modulos/jogador");
 const {Jogador, ...funcoes} = require("./modulos/jogador");

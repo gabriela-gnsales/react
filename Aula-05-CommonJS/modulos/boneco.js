@@ -1,8 +1,9 @@
 console.log("Boneco completo");
 
 let forca = {
-
-}
+    tipo_haste: "madeira",
+    tipo_corda: "nylon"
+};
 
 let boneco = {
     membros: [
@@ -19,10 +20,13 @@ let boneco = {
 };
 
 console.log(boneco);
+console.log(forca);
 
 // module.exports = {
 //     boneco
 // }
 
 // Exportação via CommonJS
+
+// module.exports = boneco;
 module.exports = [boneco, forca, 1, 2, 3];

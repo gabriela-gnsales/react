@@ -6,6 +6,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+// MANEIRA DE IMPORTAR MAIS OTIMIZADA:
+// import { Button, Form, Container, Row, Col} from 'react-bootstrap';
+
 function App() {
   return (
     <Container>
